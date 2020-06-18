@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bd.android.emeblood">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="B Donor"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UIS.Option">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UIS.MainActivity" />
+        <activity android:name=".Taiseer" />
+        <activity android:name=".Uni" />
+        <activity android:name=".UIS.Activity2" />
+        <activity android:name=".ReNum" />
+        <activity android:name=".UIS.SignUp" />
+        <activity android:name=".UIS.ShowNoti" />
+        <activity
+            android:name=".UIS.IntroFrag"
+            android:theme="@style/full" />
+        <activity android:name=".UIS.intro" />
+        <activity android:name=".UIS.SendNoti" />
+        <activity android:name=".BloodTypes" />
+        <activity android:name=".Next" />
+        <activity android:name=".Hospitals" />
+        <activity android:name=".Update" />
+        <activity android:name=".UIS.News" />
+        <activity android:name=".MedicalInfo" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity android:name=".TH" />
+        <activity android:name=".UIS.ShowSecondStep" />
+        <activity
+            android:name=".UI"
+            android:theme="@style/full" />
+        <activity android:name=".Points" />
+
+        <receiver android:name=".AlertReceiver" />
+
+        <activity android:name=".UIS.Reneed" />
+        <activity android:name=".UIS.Settings" />
+        <activity android:name=".Language" />
+        <activity android:name=".Who" />
+        <activity android:name=".Advertisement" />
+        <activity android:name=".Choose" />
+        <activity android:name=".campaign" />
+        <activity android:name=".choose_gov"/>
+    </application>
+
+</manifest>

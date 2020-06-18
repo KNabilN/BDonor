@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+        android:background="@drawable/borders"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="8dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <Switch
+                android:id="@+id/noti_switch"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:checked="false"
+                android:gravity="center"
+                android:switchMinWidth="50dp"
+                tools:checked="false" />
+            <TextView
+
+                android:id="@+id/sit"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="On"
+                android:layout_gravity="right"
+
+                android:gravity="right"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/noti_permission"
+        android:layout_gravity="center"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/borders"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/permission_message"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            />
+        <CheckBox
+            android:id="@+id/permission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+    android:visibility="gone"
+android:orientation="vertical"
+android:layout_margin="15dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+android:background="#ff4d6b"
+    >
+
+    <TextView
+
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/lang"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>

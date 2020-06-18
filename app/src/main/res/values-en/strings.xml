@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lang">Language</string>
+    <string name="noti_permission">Notifications</string>
+    <string name="permission_message">do you agree to receive calls or messages form those who need your blood type permanently?</string>
+    <string name="thanks">Thanks to save a life</string>
+    <string name="directions">Directions</string>
+    <string name="cancel">Cancel</string>
+    <string name="points_message">For codes please visit our facebook page</string>
+    <string name="reneed">Blood type needed</string>
+    <string name="facebook">Our Facebook Page</string>
+    <string name="need">Patient</string>
+    <string name="campaign">Blood donation campaign</string>
+    <string name="answer">Answer</string>
+    <string name="don">You do not know?</string>
+    <string name="update">Update</string>
+    <string name="blood_type">Blood types</string>
+    <string name="hospital">Hospitals</string>
+    <string name="daily">Today Info</string>
+    <string name="information">information</string>
+    <string name="your_points">Your Points</string>
+    <string name="your_blood">Have you known your blood type?</string>
+    <string name="after_donation">After donation</string>
+    <string name="settings">Settings</string>
+    <string name="who">Who are we?</string>
+    <string name="exit">Exit</string>
+    <string name="donors">donors</string>
+    <string name="send_noti_btn">Send a notification</string>
+    <string name="nots">notifications</string>
+    <string name="notifications_show_btn">Notifications</string>
+    <string name="yourepeat">Do you always need blood?</string>
+    <string name="intro">Sign In</string>
+    <string name="signin">sign in</string>
+    <string name="haveaccount">Do you have an account?</string>
+    <string name="newaccount">New account?</string>
+    <string name="profile">Profile</string>
+    <string name="noti_frag">Notifications</string>
+    <string name="others">Others</string>
+    <string name="namehala">Patient\'s Name</string>
+    <string name="number_needed">Number needed</string>
+    <string name="nextbtn">next</string>
+    <string name="patient_phone">Mobile number (optional)</string>
+    <string name="which">which hospital?</string>
+    <string name="t">AlTayser</string>
+    <string name="g">AlGamaa</string>
+    <string name="ag">AlAhrar</string>
+    <string name="n">Blood types needed</string>
+    <string name="s">Send</string>
+    <string name="signup">Sign Up</string>
+    <string name="values">Benefits of Donation</string>
+    <string name="gender">Gender</string>
+    <string name="choose">Your blood type</string>
+    <string name="msg">Do you agree to receive call or messages form those who need your blood type permanently?</string>
+    <string name="signupbtn">Sign Up</string>
+    <string name="done">Visit</string>
+    <string name="codes">Codes</string>
+    <string name="emergency">Emergency</string>
+    <string name="des">Description (optional)</string>
+    <string name="developed">Developer</string>
+    <string name="supported">Supported by</string>
+    <string name="langu">Language</string>
+    <string name="yourname">Your Name</string>
+    <string name="yourmail">Your Mail</string>
+    <string name="supp">Supported by</string>
+    <string name="yourph">Phone number</string>
+    <string name="camp">Blood donation campaigns</string>
+    <string name="newpass">Password</string>
+    <string name="ca">campaigns</string>
+    <string name="repeat">Repeat Password</string>
+    <string name="hosname">Hospital Name</string>
+    <string name="hosadd">Hospital Address</string>
+    <!--<string-array name="governs">-->
+        <!--<item>Choose Your Governorate</item>-->
+        <!--<item>Sharqia</item>-->
+        <!--<item>Dakahlia</item>-->
+        <!--<item>Cairo</item>-->
+        <!--<item>Luxor</item>-->
+        <!--<item>Alexandria</item>-->
+        <!--<item>Giza</item>-->
+        <!--<item>Port Said</item>-->
+        <!--<item>Damietta</item>-->
+        <!--<item>Aswan</item>-->
+        <!--<item>Qalyubia</item>-->
+        <!--<item>Beni Suef</item>-->
+        <!--<item>Ismailia</item>-->
+        <!--<item>Sohag</item>-->
+        <!--<item>Suez</item>-->
+        <!--<item>Asyut</item>-->
+        <!--<item>Red Sea</item>-->
+        <!--<item>Beheira</item>-->
+        <!--<item>Gharbia</item>-->
+        <!--<item>Faiyum</item>-->
+        <!--<item>Qena</item>-->
+        <!--<item>Kafr El Sheikh</item>-->
+        <!--<item>Matruh</item>-->
+        <!--<item>Minya</item>-->
+        <!--<item>Monufia</item>-->
+        <!--<item>New Valley</item>-->
+        <!--<item>6th October</item>-->
+        <!--<item>South Sinai</item>-->
+        <!--<item>North Sinai</item>-->
+        <!--<item>Helwan</item>-->
+
+
+    <!--</string-array>-->
+    <!--<string-array name="govern">-->
+        <!--<item>الشرقية</item>-->
+
+    <!--</string-array>-->
+
+</resources>

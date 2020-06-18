@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_gravity="center"
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:background="@color/colorPrimaryDark"
+           android:gravity="center"
+           android:text="إدخال البيانات"
+           android:textColor="@android:color/white"
+           android:textSize="24sp"
+           android:textStyle="bold" />
+
+
+       <EditText
+           android:id="@+id/hosname"
+           style="@style/edt"
+           android:layout_margin="8dp"
+           android:hint="@string/hosname"
+           />
+       <EditText
+           android:id="@+id/hosadd"
+           style="@style/edt"
+           android:layout_margin="8dp"
+           android:hint="@string/hosadd"
+           />
+
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/n"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+
+    android:orientation="vertical">
+
+
+    <CheckBox
+
+        android:id="@+id/AP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        android:text="A+"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <CheckBox
+        android:id="@+id/OP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="O+"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/AP"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <CheckBox
+        android:id="@+id/BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="B+"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/OP"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <CheckBox
+        android:id="@+id/ABP"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="AB+"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/BP"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <CheckBox
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="ALL"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/BP"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp">
+
+            <CheckBox
+                android:id="@+id/AN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="72dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="72dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:text="A-"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/ABP" />
+
+            <CheckBox
+                android:id="@+id/ON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="72dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="72dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="O-"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/AN" />
+
+            <CheckBox
+                android:id="@+id/BN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="76dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="76dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="B-"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/ON" />
+
+            <CheckBox
+                android:id="@+id/ABN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="60dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="AB-"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/BN" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:onClick="sendNot"
+        android:text="@string/s"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>
+</ScrollView>

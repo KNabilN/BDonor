@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "328628283267",
+    "firebase_url": "https://emeblood-1121998.firebaseio.com",
+    "project_id": "emeblood-1121998",
+    "storage_bucket": "emeblood-1121998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328628283267:android:a63a03b505bf207b",
+        "android_client_info": {
+          "package_name":"com.bd.android.emeblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328628283267-7d445j8sjjkjkcteb3d51bgv4sql0kbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bd.android.emeblood",
+            "certificate_hash": "508dc32e19a6ce0288640617ca39d325159db08c"
+          }
+        },
+        {
+          "client_id": "328628283267-1r1c391e2tginepraqfdpqq44j9lhdmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADQil7lRQFPavvH0mZYBeNZtx043iO6qQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328628283267-1r1c391e2tginepraqfdpqq44j9lhdmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/your_data"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edit_camp_name"
+            style="@style/edt"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:hint="اسم الهيئة"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/edit_camp_address"
+            style="@style/edt"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="عنوان مكان الحملة"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/edit_camp_date"
+            style="@style/edt"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="تاريخ الحملة"
+            android:inputType="date"
+            />
+
+        <EditText
+            android:id="@+id/edit_camp_det"
+            style="@style/edt"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="معلومات إضافية"
+            android:inputType="text"
+            />
+
+
+        <Button
+            android:id="@+id/btn_send_cam"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:text="@string/s"
+            android:background="@drawable/border"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+</ScrollView>

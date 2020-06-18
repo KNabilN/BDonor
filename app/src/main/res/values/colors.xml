@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff3e5d</color>
+    <color name="colorPrimaryDark">#ff3e5d</color>
+    <color name="colorAccent">#D32F2F</color>
+    <color name="activite">#ffffff</color>
+    <color name="deactivated">#d9d4d4</color>
+    <color name="back">#ff3755</color>
+    <color name="forward">#ff4d6b</color>
+
+
+</resources>

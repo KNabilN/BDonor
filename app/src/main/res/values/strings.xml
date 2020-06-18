@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">BDonor</string>
+    <string name="loc">geo:19,250</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="blood_types">Blood Types</string>
+    <string name="hospitals">Hospiatals</string>
+    <string name="Name">Karim Nabil</string>
+    <string name="Mail">karimnouh@gmail.com</string>
+    <string-array name="BloodTypes">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>Don't know</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lang">اللغة</string>
+    <string name="noti_permission">الإشعارات</string>
+    <string name="permission_message">هل توافق على الاتصال بك ممن يحتاجون فصيلة دمك باستمرار؟</string>
+    <string name="thanks">شكرا لك على إنقاذ حياة</string>
+    <string name="directions">الاتجاهات</string>
+    <string name="cancel">إلغاء الاستجابة</string>
+    <string name="points_message">لمعرفة الأكواد بالرجاء زيارة صفحتنا على الفيس بوك</string>
+    <string name="reneed">فصيلة الدم التي تحتاجها باستمرار؟</string>
+    <string name="answer">استجابة</string>
+    <string name="update">تحديث</string>
+    <string name="blood_type">فصائل الدم</string>
+    <string name="hospital">المستشفيات</string>
+    <string name="daily">معلومة اليوم</string>
+    <string name="information">إرشادات عامة</string>
+    <string name="your_points">نقاطك</string>
+    <string name="your_blood">هل علمت فصيلة دمك؟</string>
+    <string name="after_donation">عند التبرع</string>
+    <string name="settings">الإعدادات</string>
+    <string name="who">من نحن</string>
+    <string name="exit">خروج</string>
+    <string name="donors">متبرع</string>
+    <string name="send_noti_btn">إرسال استغاثة</string>
+    <string name="nots">استغاثة</string>
+    <string name="notifications_show_btn">الاستغاثات</string>
+    <string name="yourepeat">تحتاج للدم باستمرار؟</string>
+    <string name="intro">الدخول</string>
+    <string name="signin">دخول</string>
+    <string name="haveaccount">تمتلك حسابا؟</string>
+    <string name="newaccount">حساب جديد؟</string>
+    <string name="profile">ملفك الشخصي</string>
+    <string name="noti_frag">الإشعارات</string>
+    <string name="others">أخرى</string>
+    <string name="namehala">اسم الحالة</string>
+    <string name="number_needed">عدد المتبرعين المطلوب</string>
+    <string name="nextbtn">التالي</string>
+    <string name="patient_phone">رقم الهاتف (اختياري)</string>
+    <string name="which">أي مستشفى؟</string>
+    <string name="t">التيسير</string>
+    <string name="g">الجامعة</string>
+    <string name="ag">الأحرار</string>
+    <string name="n">فصائل الدم المطلوبة؟</string>
+    <string name="s">إرسال</string>
+    <string name="signup">إنشاء حساب جديد</string>
+    <string name="gender">النوع</string>
+    <string name="choose">اختر فصيلة دمك</string>
+    <string name="msg">هل توافق على اتاحة رقم هاتفك لمن يحتاج فصيلتك باستمرار؟</string>
+    <string name="signupbtn">إنشاء</string>
+    <string name="done">الذهاب</string>
+    <string name="emergency">طوارئ</string>
+    <string name="des">وصف الحالة (اختياري)</string>
+    <string name="developed">برمجة وتطوير</string>
+    <string name="supported">بدعم من</string>
+    <string name="need">مُحتاج للدم</string>
+    <string name="campaign">حملة للتبرع بالدم</string>
+    <string name="yourname">اسمك</string>
+    <string name="yourmail">بريدك</string>
+    <string name="yourph">رقم الهاتف</string>
+    <string name="newpass">كلمة السر</string>
+    <string name="repeat">أعد كتابة كلمة السر</string>
+    <string name="camp">حملات التبرع بالدم</string>
+    <string name="ca">حملة</string>
+    <string name="facebook">صفحتنا على الفيس بوك</string>
+    <string name="codes">الأكواد</string>
+    <string name="values">فوائد التبرع</string>
+    <string name="supp">بدعم من</string>
+    <string name="langu">اللغة</string>
+    <string name="don">لا تدري فصيلة دمك؟</string>
+    <string name="hosname">اسم المستشفى</string>
+    <string name="hosadd">عنوان المستشفى</string>
+    <string name="your_data">بالرجاء إدخال البيانات</string>
+    <string name="desire">بالرجاء تحديد الغرض من الاستغاثة</string>
+    <string name="choose_lang">بالرجاء اختيار اللغة المناسبة</string>
+    <string-array name="governs">
+        <item>اختر محافظتك</item>
+        <item>الشرقية</item>
+        <item>الدقهلية</item>
+        <item>القاهرة</item>
+        <item>الأقصر</item>
+        <item>الإسكندرية</item>
+        <item>الجيزة</item>
+        <item>بورسعيد</item>
+        <item>دمياط</item>
+        <item>أسوان</item>
+        <item>القليوبية</item>
+        <item>بني سويف</item>
+        <item>الإسماعيلية</item>
+        <item>سوهاج</item>
+        <item>السويس</item>
+       <item>أسيوط</item>
+        <item>البحر الأحمر</item>
+        <item>البحيرة</item>
+      <item>الغربية</item>
+        <item>الفيوم</item>
+        <item>قنا</item>
+        <item>كفر الشيخ</item>
+        <item>مطروح</item>
+        <item>المنيا</item>
+        <item>المنوفية</item>
+        <item>الوادي الجديد</item>
+        <item>السادس من أكتوبر</item>
+        <item>شمال سيناء</item>
+        <item>جنوب سيناء</item>
+        <item>حلوان</item>
+
+
+    </string-array>
+    <string-array name="govern">
+        <item>اختر محافظتك</item>
+        <item>الشرقية</item>
+    </string-array>
+
+
+</resources>

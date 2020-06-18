@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UIS.intro"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="إنشاء حساب"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/register_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <EditText
+            android:id="@+id/uuser"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext"
+            android:padding="8dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="@string/yourname" />
+    </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_display_name">
+
+
+
+        <EditText
+            android:id="@+id/umail"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext"
+            android:padding="8dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:hint="@string/yourmail"
+            android:inputType="textEmailAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/register_numb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_display_name">
+
+
+
+        <EditText
+            android:id="@+id/unum"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext"
+            android:padding="8dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:hint="@string/yourph"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_email">
+
+            <EditText
+                android:id="@+id/upass"
+                android:layout_width="match_parent"
+                android:background="@drawable/edittext"
+                android:padding="8dp"
+                android:layout_height="50dp"
+                android:hint="@string/newpass"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/re_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_email">
+
+        <EditText
+            android:id="@+id/urepass"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext"
+            android:padding="8dp"
+            android:layout_height="50dp"
+            android:hint="@string/repeat"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <Spinner
+        android:id="@+id/govern_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"/>
+
+        <!--<Spinner-->
+            <!--android:id="@+id/ubloodtype"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+
+            <!--/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/gender"
+            android:layout_gravity="right"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/reg_male"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/mp" />
+
+<TextView
+    android:layout_width="2dp"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/reg_female"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/fep" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/choose"
+        android:layout_gravity="right"
+        android:textColor="@color/colorPrimaryDark"
+
+
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <Button
+        android:id="@+id/reg_op"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:text="O+"
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_on"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:text="O-"
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_ap"
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:text="A+"
+
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_an"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+
+        android:text="A-"
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/reg_abp"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:text="AB+"
+
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_abn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:text="AB-"
+
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_bp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+
+        android:text="B+"
+        android:textColor="#cbc0c1"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_bn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+
+        android:text="B-"
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/don"
+        android:layout_gravity="right"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/reg_non"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@drawable/circle"
+        android:padding="1dp"
+        android:text="X"
+        android:textColor="#cbc0c1"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/per_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/msg"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reg_create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:background="@drawable/border"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/signupbtn"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_password" />
+
+
+    </LinearLayout>
+
+</ScrollView>
